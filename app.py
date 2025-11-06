@@ -185,7 +185,7 @@ st.markdown("Your friendly AI assistant powered by Google Gemini")
 # Check if API key is set
 if not GEMINI_API_KEY or GEMINI_API_KEY == "your-api-key-here":
     st.warning("Please set your Gemini API key in the `.env` file or as an environment variable.")
-    st.info("Add your API key in the `.env` file like this: `GEMINI_API_KEY=AIzaSyBZqn0BZyxJFhsjcltDPcBFybm9ELjkIpw`")
+    st.info("Add your API key in the `.env` file like this: `GEMINI_API_KEY= YOUR_KEY`")
     st.stop()
 
 # Sidebar
